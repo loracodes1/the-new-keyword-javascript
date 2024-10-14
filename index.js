@@ -25,3 +25,18 @@ Cat.prototype.meow = function() {
 
 const myCat = new Cat('Whiskers');
 myCat.meow(); // Output: Whiskers says Meow!
+
+
+//3. using classes
+class Bird {
+    constructor(name) {
+        this.name = name;
+    }
+
+    sing() {
+        console.log(`${this.name} sings!`);
+    }
+}
+
+const myBird = new Bird('Tweety');
+myBird.sing(); // Output: Tweety sings!
