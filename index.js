@@ -11,3 +11,17 @@ function Dog(name) {
 
 const myDog = new Dog('Buddy');
 myDog.bark(); // Output: Buddy says Woof!
+
+
+//2.Setting the Prototype
+//When you create an object with new, it links the new object to the prototype of the constructor function
+function Cat(name) {
+    this.name = name;
+}
+
+Cat.prototype.meow = function() {
+    console.log(`${this.name} says Meow!`);
+};
+
+const myCat = new Cat('Whiskers');
+myCat.meow(); // Output: Whiskers says Meow!
