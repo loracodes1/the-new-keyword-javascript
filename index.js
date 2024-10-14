@@ -40,3 +40,16 @@ class Bird {
 
 const myBird = new Bird('Tweety');
 myBird.sing(); // Output: Tweety sings!
+
+
+// Returning the Object
+// When using new, the constructor function implicitly returns the newly created object unless it returns a different object explicitly.
+
+// 5. Error Handling
+// If you forget to use new when calling a constructor, this will refer to the global object (or undefined in strict mode), which can lead to unexpected behavior or errors.
+
+// Conclusion
+// The new keyword is essential for creating instances of objects, establishing prototypes, and leveraging object-oriented programming in JavaScript. If you have more specific questions about its use or need examples, feel free to ask!
+
+
+
